@@ -2,6 +2,11 @@
     background-color: #1abc9c;
 }
 
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
 .bg-dark_gray {
     background-color: #2c3e50;
 }
@@ -10,6 +15,20 @@
     background-color: #3a546d;
 }
 
+.button {
+    color: white;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #1abc9c;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #1abc9ca5;
+}
 
 .fs-1:before,
 .fs-1::after {
@@ -28,4 +47,22 @@
 .fs-1.bg_black:before,
 .fs-1.bg_black::after {
     background-color: black;
+}
+
+.fs-1.w_10:before,
+.fs-1.w_10::after {
+    content: '';
+    width: 10%;
+    height: 3px;
+}
+
+.circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
 }
